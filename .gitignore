@@ -1,0 +1,21 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+.env
+
+# Frontend (Node/React/Vite)
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.*.local
+
+# Backend (Python/Flask)
+backend/__pycache__/
+backend/instance/
+backend/.pytest_cache/
+backend/venv/
+backend/*.pyc
+
+# Root Node (if applicable in future, though currently not seen)
+node_modules/
